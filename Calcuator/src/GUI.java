@@ -4,6 +4,9 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 public class GUI extends JFrame {
+	
+	private JButton add, sub, mul, div, mod, equal;
+	private JTextField numberBox;
 
 	public GUI() {
 		createUserInterface();
