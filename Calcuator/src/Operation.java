@@ -11,8 +11,9 @@ public class Operation
 		return Math.pow(base, exponent);
 	}
 	
-	public double Add(int a, int b)
+	public double Add(int c, int d)
 	{
-		return a+b;
+		return c+d;
 	}
+	
 }
