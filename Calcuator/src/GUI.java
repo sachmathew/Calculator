@@ -6,7 +6,7 @@ import javax.swing.border.*;
 
 public class GUI extends JFrame {
 	
-	private JButton add, sub, mul, div, mod, exp, equal;
+	private JButton add, sub, mul, div, mod, exp;
 	private JTextField numberBox;
 
 	public GUI() {
@@ -17,9 +17,6 @@ public class GUI extends JFrame {
 		Container contentPane = getContentPane();
 		contentPane.setLayout(null);
 
-		setSize(500, 500);
-		setVisible(true);
-		setTitle("Calculator");
 		
 		add = new JButton("ADD");
 		add.setBounds(60, 300, 70, 30);
@@ -45,10 +42,9 @@ public class GUI extends JFrame {
 		exp.setBounds(340, 350, 70, 30);
 		contentPane.add(exp);
 		
-		equal = new JButton("=");
-		equal.setBounds(200, 400, 70, 30);
-		contentPane.add(equal);
-		
+		setSize(500, 500);
+		setVisible(true);
+		setTitle("Calculator");
 	}
 	
 	public static void main(String[] args){
