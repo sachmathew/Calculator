@@ -6,7 +6,7 @@ import javax.swing.border.*;
 
 public class GUI extends JFrame {
 	
-	private JButton add, sub, mul, div, mod,exp, equal;
+	private JButton add, sub, mul, div, mod, exp, equal;
 	private JTextField numberBox;
 
 	public GUI() {
