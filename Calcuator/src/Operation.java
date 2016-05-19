@@ -10,4 +10,9 @@ public class Operation
 	{
 		return Math.pow(base, exponent);
 	}
+	
+	public double Add(int a, int b)
+	{
+		return a+b;
+	}
 }
