@@ -5,4 +5,9 @@ public class Operation
 	{
 		return a/b;
 	}
+	
+	public double Exponent(double base, double exponent)
+	{
+		return Math.pow(base, exponent);
+	}
 }
