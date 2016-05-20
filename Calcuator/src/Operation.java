@@ -16,6 +16,11 @@ public class Operation
 		return c+d;
 	}
 	
+	public double substract(double c, double d)
+	{
+		return c-d;
+	}
+	
 	public double mod(double c, double d)
 	{
 		return c%d;
